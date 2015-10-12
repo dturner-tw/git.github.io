@@ -87,6 +87,11 @@ patches](http://thread.gmane.org/gmane.comp.version-control.git/279348),
 so an interesting way to test patchs will perhaps be available soon
 to Git developers.
 
+David Turner submitted a draft of his work on alternate ref backends. 
+This work is being reviewed by Michael Haggerty, Junio, and others.  The 
+ultimate goal is to allow a lmdb-based backend, which should be faster and
+have fewer issues on case-insensitive filesystems.  This work is sponsored
+by Twitter.
 
 ### Support
 
